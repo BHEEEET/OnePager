@@ -1,0 +1,21 @@
+body {
+    height: 100%;
+    background-color: black;
+}
+
+header {
+    color: grey;
+    border: 1px solid;
+    text-align: center;
+    height: 5vh;
+}
+
+main {
+    height: 70vh;
+    border: 1px solid red;
+}
+
+footer {
+    height: 15rem;
+    border: 1px solid green;
+}
