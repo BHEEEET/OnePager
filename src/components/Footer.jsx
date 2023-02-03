@@ -1,0 +1,12 @@
+import React from "react";
+
+export default function Footer() {
+  return (
+    <footer>
+      <h2>Shess</h2>
+      <a>
+        <img src="" />
+      </a>
+    </footer>
+  );
+}
