@@ -6,3 +6,16 @@ body {
 #root {
   height: 100vh;
 }
+
+header {
+  border: 1px solid white;
+}
+
+main {
+  margin: auto;
+  width: 60%;
+}
+
+footer {
+  border: 1px solid white;
+}
