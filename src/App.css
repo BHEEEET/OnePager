@@ -5,10 +5,19 @@ body {
 
 #root {
   height: 100vh;
+  margin: auto;
+  padding-left: 2rem;
 }
 
 header {
   border: 1px solid white;
+  height: 8vh;
+  display: inline-flex;
+  width: 100%;
+}
+
+header > h1 {
+  display: none;
 }
 
 main {

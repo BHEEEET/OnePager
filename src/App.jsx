@@ -9,7 +9,7 @@ export default function App() {
     <div className="wrapper">
       <Navbar />
       <main>
-        <h1>Hello World</h1>
+        <h1>Solana Chess</h1>
       </main>
       <Footer />
     </div>
