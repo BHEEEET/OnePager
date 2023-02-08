@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Bold";
+  src: local("OpenSans-SemiBold"),
+    url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+
 body {
   color: white;
   background-image: radial-gradient(circle, #391d5c 0%, #000000 100%);
@@ -6,18 +12,38 @@ body {
 #root {
   height: 100vh;
   margin: auto;
-  padding-left: 2rem;
 }
 
 header {
-  border: 1px solid white;
-  height: 8vh;
+  height: 7vh;
   display: inline-flex;
   width: 100%;
+  position: relative;
 }
 
 header > h1 {
   display: none;
+}
+
+header > a {
+  padding-left: 1rem;
+  height: 3.5rem;
+}
+
+.logo {
+  padding-top: 6px;
+}
+
+.hamburger {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.hamburger:hover {
+  cursor: pointer;
 }
 
 main {
@@ -25,6 +51,15 @@ main {
   width: 60%;
 }
 
+.mainTitle {
+  font-size: 40px;
+  text-align: center;
+  line-height: 5rem;
+  font-family: "Bold";
+  padding-top: 5rem;
+}
+
 footer {
   border: 1px solid white;
+  height: 8rem;
 }
