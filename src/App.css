@@ -79,7 +79,7 @@ main {
 }
 
 .front {
-  height: 83vh;
+  height: 84vh;
   text-align: center;
 }
 
@@ -116,20 +116,35 @@ main {
   padding-top: 8rem;
 }
 
+.grizz {
+  height: 24vh;
+}
+
 .articles {
-  height: 100vh;
+  height: 100%;
   text-align: center;
 }
 
 article {
+  padding: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   line-height: 2rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(12, 12, 12);
 }
 
 article:nth-child(2) {
   margin-top: 1rem;
   grid-row: 2/3;
   grid-column: 2/3;
-  background: rebeccapurple;
+}
+
+.modes {
+  margin-top: 2rem;
+  border: 1px solid;
+  border-radius: 10px;
 }
 
 h2 {
@@ -142,4 +157,5 @@ footer {
   border: 1px solid white;
   height: 8rem;
   background-color: black;
+  display: block;
 }

@@ -22,6 +22,18 @@ export default function App() {
         </div>
         <div className="articles">
           <article>
+            There are
+            <br />
+            <span> ±700.000.000 people </span>
+            <br />
+            in the whole world
+            <br /> that have played chess
+          </article>
+          <article>
+            <h2>Hackathon</h2>
+            <img className="grizz" src="Logo_Light.svg" />
+          </article>
+          <article>
             <h2>What is Shess?</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -32,12 +44,24 @@ export default function App() {
           </article>
           <article>
             <h2>Modes</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-              quod libero quae? Magnam, vero? Aliquid, ab? Corrupti commodi
-              vero, veniam dolores mollitia ratione impedit maxime, minima ipsam
-              autem magnam repellendus.
-            </p>
+            <div className="PvP modes">
+              <h3>Player vs Player</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
+                quod libero quae? Magnam, vero? Aliquid, ab? Corrupti commodi
+                vero, veniam dolores mollitia ratione impedit maxime, minima
+                ipsam autem magnam repellendus.
+              </p>
+            </div>
+            <div className="DvD modes">
+              <h3>DAO vs DAO</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
+                quod libero quae? Magnam, vero? Aliquid, ab? Corrupti commodi
+                vero, veniam dolores mollitia ratione impedit maxime, minima
+                ipsam autem magnam repellendus.
+              </p>
+            </div>
           </article>
         </div>
       </main>
