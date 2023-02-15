@@ -16,6 +16,12 @@ html {
     url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Text";
+  src: local("OpenSans-SemiBold"),
+    url("../fonts/OpenSans-Light.ttf") format("truetype");
+}
+
 body {
   color: white;
   background-image: radial-gradient(circle, #391d5c 0%, #000000 100%);
@@ -35,20 +41,29 @@ header {
   align-items: center;
 }
 
-header > h1 {
-  display: none;
+.front > p {
+  font-family: "Text";
+}
+
+header > a > h1 {
+  font-family: "Bold";
+  font-size: 25px;
+  padding-left: 5px;
+  color: white;
 }
 
 header > a {
+  align-items: center;
+  display: inline-flex;
   padding-left: 1rem;
-  height: 3.5rem;
+  height: 2.9rem;
+  text-decoration: none;
 }
 
 .hamburger {
   position: absolute;
-  right: 10px;
-  padding: 6px;
-  height: 40px;
+  right: 15px;
+  height: 35px;
   border-radius: 50px;
 }
 
@@ -74,11 +89,14 @@ main {
   border: 1px solid rgb(46, 46, 46);
   width: 7rem;
   height: 3rem;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
 .startButton:hover {
   cursor: pointer;
+}
+
+.startButton:active {
   background-color: grey;
 }
 
@@ -87,7 +105,7 @@ main {
   text-align: center;
   line-height: 3rem;
   font-family: "Bold";
-  padding-top: 12rem;
+  padding-top: 8rem;
 }
 
 .articles {

@@ -8,10 +8,10 @@ export default function Navbar() {
           className="logo"
           src="Logo1-01cropped.png"
           alt="logo"
-          height={50}
+          height={40}
         />
+        <h1>Shess</h1>
       </a>
-      <h1>Shess</h1>
       <img className="hamburger" src="list.svg" alt="" />
     </header>
   );

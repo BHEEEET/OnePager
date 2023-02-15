@@ -14,6 +14,7 @@ export default function App() {
             Solana <br />
             Web3 Chess
           </h1>
+          <p className="mainText">Grizzlython</p>
           <button className="startButton">Start</button>
         </div>
         <div className="articles">
