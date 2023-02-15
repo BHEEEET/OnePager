@@ -15,7 +15,10 @@ export default function App() {
             Web3 Chess
           </h1>
           <p className="mainText">Grizzlython</p>
-          <button className="startButton">Start</button>
+          <button className="startButton">
+            <img src="play-fill.svg" />
+            Play now
+          </button>
         </div>
         <div className="articles">
           <article>
