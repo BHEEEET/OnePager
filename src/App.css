@@ -47,15 +47,17 @@ header > a {
 }
 
 .hamburger {
+  padding: 5px;
   position: absolute;
-  top: 2px;
-  right: 0;
-  height: 60px;
-  border-radius: 50%;
+  top: 10px;
+  right: 10px;
+  height: 30px;
+  border-radius: 50px;
 }
 
 .hamburger:hover {
   cursor: pointer;
+  background-color: grey;
 }
 
 main {
