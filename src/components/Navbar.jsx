@@ -12,7 +12,7 @@ export default function Navbar() {
         />
         <h1>Shess</h1>
       </a>
-      <img className="hamburger" src="list.svg" alt="" />
+      <img className="hamburger" src="icons/list.svg" alt="" />
     </header>
   );
 }
