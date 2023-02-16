@@ -17,15 +17,15 @@ export default function App() {
             Play now
           </button>
         </div>
+        <div className="mostPlayed">
+          <h2> One of the most played game.</h2>
+          <div className="peopleNum">700M+</div>
+          <div className="people">PEOPLE</div>
+          <br />
+          in the whole world
+          <br /> that have played chess
+        </div>
         <div className="articles">
-          <article>
-            There are
-            <br />
-            <span> ±700.000.000 people </span>
-            <br />
-            in the whole world
-            <br /> that have played chess
-          </article>
           <article>
             <h2>Hackathon</h2>
             <img className="grizz" src="Logo_Light.svg" />

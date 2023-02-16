@@ -22,6 +22,12 @@ html {
     url("../fonts/OpenSans-Light.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Normal";
+  src: local("OpenSans-SemiBold"),
+    url("../fonts/OpenSans-Medium.ttf") format("truetype");
+}
+
 body {
   color: white;
   background-image: radial-gradient(circle, #0f0044 0%, #000000 100%);
@@ -120,6 +126,32 @@ main {
   height: 24vh;
 }
 
+.mostPlayed {
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.peopleNum {
+  padding-top: 4rem;
+  font-size: 40px;
+  font-family: "Bold";
+}
+
+.people {
+  padding-top: 1rem;
+  display: block;
+  font-size: 15px;
+  font-family: "Normal";
+  padding-bottom: 4rem;
+}
+
+.mostPlayed > h2 {
+  font-size: 30px;
+  font-family: "Bold";
+}
+
 .articles {
   height: 100%;
   text-align: center;
@@ -200,5 +232,5 @@ footer {
 .copyright {
   font-family: "Text";
   padding-top: 1rem;
-  border-top: 1px solid;
+  border-top: 1px solid rgba(128, 128, 128, 0.345);
 }
