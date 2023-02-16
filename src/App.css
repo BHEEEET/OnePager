@@ -24,12 +24,7 @@ html {
 
 body {
   color: white;
-  background-image: radial-gradient(
-    circle,
-    #000000 0%,
-    rgb(9, 3, 19) 60%,
-    #11071a 100%
-  );
+  background-image: radial-gradient(circle, #0f0044 0%, #000000 100%);
 }
 
 #root {

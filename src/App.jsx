@@ -10,10 +10,7 @@ export default function App() {
       <Navbar />
       <main>
         <div className="front">
-          <h1 className="mainTitle">
-            Solana <br />
-            Web3 Chess
-          </h1>
+          <h1 className="mainTitle">Solana Chess</h1>
           <p className="mainText">Grizzlython</p>
           <button className="startButton">
             <img src="icons/play-fill.svg" />
