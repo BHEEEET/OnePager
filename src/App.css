@@ -129,7 +129,7 @@ main {
 .mostPlayed {
   height: 100%;
   font-size: 25px;
-
+  font-family: "Normal";
   margin-bottom: 8rem;
 }
 
