@@ -155,8 +155,52 @@ h2 {
 }
 
 footer {
-  border: 1px solid white;
-  height: 8rem;
+  border-top: 1px solid rgb(24, 24, 24);
+  border-radius: 10px;
+  height: 15rem;
   background-color: black;
   display: block;
+}
+
+.footerWrapper {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  color: rgb(160, 160, 160);
+  font-family: "Bold";
+}
+
+.linksFooter {
+  margin-top: 2rem;
+}
+
+.linksFooter > a {
+  margin-right: 1.5rem;
+  height: 100%;
+}
+
+.linksFooter > a:nth-child(4) {
+  margin-right: 0;
+}
+
+.powered {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.powered > a {
+  color: rgb(160, 160, 160);
+  text-decoration: none;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #3c1daa, #3192a8);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.copyright {
+  font-family: "Text";
+  padding-top: 1rem;
+  border-top: 1px solid;
 }
