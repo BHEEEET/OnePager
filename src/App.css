@@ -30,7 +30,7 @@ html {
 
 body {
   color: white;
-  background-image: radial-gradient(circle, #0f0044 0%, #000000 100%);
+  background-color: rgb(5, 5, 5);
 }
 
 #root {
@@ -90,12 +90,16 @@ main {
 }
 
 .startButton {
-  background-color: rgb(19, 19, 19);
+  -webkit-box-shadow: -1px 1px 4px 4px rgba(46, 11, 116, 0.75);
+  -moz-box-shadow: -1px 1px 4px 4px rgba(46, 11, 116, 0.75);
+  box-shadow: -1px 1px 4px 4px rgba(46, 11, 116, 0.75);
+  background-color: rgb(8, 8, 8);
   color: white;
   border-radius: 30px;
-  border: 1px solid rgb(46, 46, 46);
+  border: 1px solid rgb(34, 34, 34);
   width: 7rem;
-  padding-left: 1rem;
+  /*Remove justify content when game is released and also display on "Startbutton > img"*/
+  justify-content: center;
   height: 3rem;
   margin-top: 15rem;
   display: inline-flex;
@@ -108,10 +112,13 @@ main {
 
 .startButton > img {
   height: 20px;
+  display: none;
 }
 
 .startButton:active {
-  background-color: grey;
+  -webkit-box-shadow: -1px 1px 4px 4px rgba(48, 246, 203, 0.459);
+  -moz-box-shadow: -1px 1px 4px 4px rgba(48, 246, 203, 0.459);
+  box-shadow: -1px 1px 4px 4px rgba(48, 246, 203, 0.459);
 }
 
 .mainTitle {
@@ -162,9 +169,7 @@ article {
   margin-top: 1rem;
   margin-bottom: 1rem;
   line-height: 2rem;
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(10, 10, 10);
   box-shadow: rgb(0, 0, 0) 3px 3px 4px;
 }
 
@@ -187,10 +192,10 @@ h2 {
 }
 
 footer {
-  border-top: 1px solid rgb(24, 24, 24);
+  border-top: 1px solid rgba(55, 55, 55, 0.656);
   border-radius: 10px;
   height: 15rem;
-  background-color: black;
+  background-color: rgb(8, 8, 8);
   display: block;
 }
 

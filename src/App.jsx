@@ -14,7 +14,7 @@ export default function App() {
           <p className="mainText">Grizzlython</p>
           <button className="startButton">
             <img src="icons/play-fill.svg" />
-            Play now
+            <span className="buttonText">Soon™</span>
           </button>
         </div>
         <div className="mostPlayed">
