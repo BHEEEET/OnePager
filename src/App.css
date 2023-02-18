@@ -90,10 +90,10 @@ main {
 }
 
 .startButton {
-  -webkit-box-shadow: -1px 1px 4px 4px rgba(46, 11, 116, 0.75);
-  -moz-box-shadow: -1px 1px 4px 4px rgba(46, 11, 116, 0.75);
-  box-shadow: -1px 1px 4px 4px rgba(46, 11, 116, 0.75);
-  background-color: rgb(8, 8, 8);
+  -webkit-box-shadow: -1px 1px 4px 4px rgba(46, 11, 116, 0.722);
+  -moz-box-shadow: -1px 1px 4px 4px rgba(46, 11, 116, 0.807);
+  box-shadow: -1px 1px 4px 4px rgba(46, 11, 116, 0.711);
+  background-color: rgb(14, 14, 14);
   color: white;
   border-radius: 30px;
   border: 1px solid rgb(34, 34, 34);
@@ -166,11 +166,11 @@ main {
 
 article {
   padding: 10px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   line-height: 2rem;
   background-color: rgb(10, 10, 10);
-  box-shadow: rgb(0, 0, 0) 3px 3px 4px;
+  box-shadow: rgba(156, 47, 215, 0.544) 0 1px 100px;
 }
 
 article:nth-child(2) {

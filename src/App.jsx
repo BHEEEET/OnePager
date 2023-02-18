@@ -3,8 +3,23 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./Reset.css";
 import "./App.css";
+import { useState, useEffect } from "react";
 
 export default function App() {
+  const [count, setCounter] = useState(0);
+
+  useEffect(() => {
+    let interval = null;
+    if (count < 700) {
+      interval = setInterval(() => {
+        setCounter((count) => count + 1);
+      }, 2);
+    } else {
+      clearInterval(interval);
+    }
+    return () => clearInterval(interval);
+  }, [count]);
+
   return (
     <div className="wrapper">
       <Navbar />
@@ -19,7 +34,9 @@ export default function App() {
         </div>
         <div className="mostPlayed">
           <h2> One of the most played game.</h2>
-          <div className="peopleNum">700M+</div>
+          <div className="peopleNum">
+            <span className="num">{count}</span>M+
+          </div>
           <div className="people">PEOPLE</div>
           <br />
           in the whole world
