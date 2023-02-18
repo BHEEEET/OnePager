@@ -14,10 +14,10 @@ export default function App() {
 
     if (count < 550) {
       delay = 3;
-    } else if (count < 650) {
-      delay = 10;
+    } else if (count < 670) {
+      delay = 30;
     } else {
-      delay = 100;
+      delay = 70;
     }
 
     if (count < 700) {
@@ -30,16 +30,37 @@ export default function App() {
     return () => clearInterval(interval);
   }, [count]);
 
+  let rotate = document.querySelector(".rotate");
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      rotate.style.setProperty(
+        "--scroll",
+        window.pageYOffset / (rotate.offsetHeight - window.innerHeight)
+      );
+    },
+    false
+  );
+
   return (
     <React.StrictMode>
       <div className="wrapper">
         <Navbar />
+        <div className="rotate">
+          <img
+            className="Logo"
+            width={100}
+            src="Logo1-01cropped 1.svg"
+            alt="logo"
+          />
+        </div>
         <main>
           <div className="front">
             <h1 className="mainTitle">Solana Chess</h1>
             <p className="mainText">Grizzlython</p>
             <button className="startButton">
-              <img src="icons/play-fill.svg" />
+              <img src="icons/play-fill.svg" alt="playicon" />
               <span className="buttonText">Soon™</span>
             </button>
           </div>
@@ -54,7 +75,7 @@ export default function App() {
           <div className="articles">
             <article>
               <h2>Hackathon</h2>
-              <img className="grizz" src="Logo_Light.svg" />
+              <img className="grizz" src="Logo_Light.svg" alt="grizzlylogo" />
             </article>
             <article>
               <h2>What is Shess?</h2>
