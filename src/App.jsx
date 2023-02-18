@@ -10,10 +10,18 @@ export default function App() {
 
   useEffect(() => {
     let interval = null;
-    if (count < 700) {
+    if (count < 550) {
       interval = setInterval(() => {
         setCounter((count) => count + 1);
-      }, 2);
+      }, 3);
+    } else if (count < 670) {
+      interval = setInterval(() => {
+        setCounter((count) => count + 1);
+      }, 10);
+    } else if (count < 700) {
+      interval = setInterval(() => {
+        setCounter((count) => count + 1);
+      }, 100);
     } else {
       clearInterval(interval);
     }
@@ -34,9 +42,7 @@ export default function App() {
         </div>
         <div className="mostPlayed">
           <h2> One of the most played game.</h2>
-          <div className="peopleNum">
-            <span className="num">{count}</span>M+
-          </div>
+          <div className="peopleNum">{count}M+</div>
           <div className="people">PEOPLE</div>
           <br />
           in the whole world
