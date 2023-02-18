@@ -47,7 +47,6 @@ export default function App() {
 
   return (
     <React.StrictMode>
-      <Navbar />
       <div className="rotate">
         <img
           className="Logo"
@@ -56,6 +55,7 @@ export default function App() {
           alt="logo"
         />
       </div>
+      <Navbar />
       <main>
         <div className="front">
           <h1 className="mainTitle">Solana Chess</h1>
