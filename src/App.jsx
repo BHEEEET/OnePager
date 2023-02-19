@@ -84,7 +84,7 @@ export default function App() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Asperiores repudiandae vitae nobis perferendis eum unde officia
               rem accusantium voluptas praesentium, reiciendis sunt, magni ipsam
-              a provident optio ea omnis suscipit.
+              a provident optio ea omnis suscipit. Blyat
             </p>
           </article>
 
